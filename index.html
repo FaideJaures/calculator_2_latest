@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  </head>
+  <body id="body">
+
+    <div class="container">
+
+      <div class="header">
+
+        <h1>calc</h1>
+
+        <div class="screen-2">
+
+          <h2>THEME</h2>
+
+          <div class="theme">
+
+          <div class="theme-number">
+
+            <label for="themechoice1">1</label>
+            
+            <label for="themechoice2">2</label>
+            
+            <label for="themechoice3">3</label>
+
+          </div>
+
+          <div class="theme-choice">
+
+            <input type="radio" id="themechoice1"
+             name="theme" value="1" checked>
+        
+            <input type="radio" id="themechoice2"
+             name="theme" value="2">
+        
+            <input type="radio" id="themechoice3"
+             name="theme" value="3">
+
+          </div>
+
+        </div>
+        
+        </div>
+
+      </div>
+      
+      <p id="text"></p>
+      <input id="input" class="screen" type="text" name="number" value="" disabled="disabled">
+
+      <div class="keyboard">
+
+          <div id="div1"  class="div1"  aria-valuetext="7">7</div>
+          <div id="div2"  class="div2"  aria-valuetext="8">8</div>
+          <div id="div3"  class="div3"  aria-valuetext="9">9</div>
+          <div id="div4"  class="div4"  aria-valuetext="delete">DEL</div>
+          <div id="div5"  class="div5"  aria-valuetext="4">4</div>
+          <div id="div6"  class="div6"  aria-valuetext="5">5</div>
+          <div id="div7"  class="div7"  aria-valuetext="6">6</div>
+          <div id="div8"  class="div8"  aria-valuetext="+">+</div>
+          <div id="div9"  class="div9"  aria-valuetext="1">1</div>
+          <div id="div10" class="div10" aria-valuetext="2">2</div>
+          <div id="div11" class="div11" aria-valuetext="3">3</div>
+          <div id="div12" class="div12" aria-valuetext="-">-</div>
+          <div id="div13" class="div13" aria-valuetext=".">.</div>
+          <div id="div14" class="div14" aria-valuetext="0">0</div>
+          <div id="div15" class="div15" aria-valuetext="/">/</div>
+          <div id="div16" class="div16" aria-valuetext="*">x</div>
+          <div id="div17" class="div17" aria-valuetext="reset">RESET</div>
+          <div id="div18" class="div18" aria-valuetext="egal">=</div>
+
+      </div>
+
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
